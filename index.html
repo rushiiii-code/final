@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rushi Patil - WebDev Journey</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://fav.farm/🚀" type="image/png" />
+
+  <!-- TailwindCSS + DaisyUI -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            'fade-in-down': 'fadeInDown 1s ease-out',
+          },
+          keyframes: {
+            fadeInDown: {
+              '0%': { opacity: 0, transform: 'translateY(-20px)' },
+              '100%': { opacity: 1, transform: 'translateY(0)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet" />
+
+  <!-- Meta Tags -->
+  <meta name="description" content="Rushi Patil's journey in web development." />
+  <meta property="og:title" content="Rushi Patil - WebDev Journey" />
+  <meta property="og:image" content="https://i.imgur.com/QXz9jSM.png" />
+  <meta property="og:url" content="https://yourwebsite.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+
+<body class="bg-gradient-to-br from-purple-200 to-blue-100 min-h-screen p-6 font-sans">
+  <div class="max-w-2xl mx-auto bg-white/90 rounded-3xl shadow-2xl backdrop-blur-xl p-10 animate-fade-in-down">
+    
+    <!-- Header -->
+    <div class="text-center">
+      <img src="photo.jpg" alt="Rushi Patil" class="rounded-full w-36 h-36 mx-auto border-4 border-primary shadow-lg hover:scale-105 transition duration-300" />
+      <h1 class="text-5xl font-extrabold text-primary mt-4">Rushi Patil</h1>
+      <p class="text-neutral mt-2 text-lg">📧 Rushi@example.com | 📞 ‪+91-8007196640‬</p>
+    </div>
+
+    <!-- Day Buttons -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-10 text-lg">
+      <a href="https://beautiful-truffle-496fea.netlify.app" class="btn btn-outline btn-primary">Day 1</a>
+      <a href="https://rushiiii-code.github.io/day2/" class="btn btn-outline btn-secondary">Day 2</a>
+      <a href="https://rushiiii-code.github.io/day3/" class="btn btn-outline btn-accent">Day 3</a>
+      <a href="https://rushiiii-code.github.io/dayy4/" class="btn btn-outline btn-success">Day 4</a>
+      <a href="https://rushiiii-code.github.io/day5/" class="btn btn-outline btn-info">Day 5</a>
+      <a href="mailto:Rushi@example.com" class="btn btn-outline btn-warning">Contact</a>
+    </div>
+
+    <!-- Social Share & Profiles -->
+    <div class="mt-10 text-center">
+      <p class="text-sm text-gray-600 mb-2">Share this page:</p>
+      <div class="flex justify-center flex-wrap gap-3">
+        <a href="https://www.facebook.com/karan.patil.official" target="_blank" class="btn btn-sm btn-info">Facebook</a>
+        <a href="https://twitter.com/intent/tweet?url=https://yourwebsite.com&text=Follow%20Rushi%20Patil's%20Web%20Dev%20Journey!" target="_blank" class="btn btn-sm btn-accent">Twitter</a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://yourwebsite.com" target="_blank" class="btn btn-sm btn-primary">LinkedIn</a>
+        <a href="https://github.com/Rushipatil" target="_blank" class="btn btn-sm btn-neutral">GitHub</a>
+        <a href="https://www.instagram.com/Rushipatil.official" target="_blank" class="btn btn-sm btn-error">Instagram</a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-10 text-sm text-gray-500 text-center">
+      © 2025 Rushi Patil | All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
